@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in - Premium Video Editing & Social Media Marketing</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Editkaro<span>.in</span></h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                We Create <span class="highlight">Viral Content</span> That Sells
+            </h1>
+            <p class="hero-subtitle">
+                Premium video editing and social media marketing agency specializing in short-form content, gaming videos, and brand storytelling that converts.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">View Our Work</button>
+                <button class="btn btn-secondary">Get Started</button>
+            </div>
+        </div>
+        <div class="hero-video">
+            <div class="video-placeholder">
+                <i class="fas fa-play"></i>
+                <span>Watch Our Reel</span>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="float-element" style="top: 20%; left: 10%;"><i class="fab fa-youtube"></i></div>
+            <div class="float-element" style="top: 60%; right: 15%;"><i class="fab fa-instagram"></i></div>
+            <div class="float-element" style="top: 80%; left: 20%;"><i class="fab fa-tiktok"></i></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Why Choose Editkaro.in?</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Expert Video Editing</h3>
+                    <p>Professional video editing services across all formats - from viral short-form content to cinematic long-form productions.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Viral Content Strategy</h3>
+                    <p>We don't just edit - we create content strategies that maximize engagement and drive real business results.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Fast Turnaround</h3>
+                    <p>Quick delivery without compromising quality. Get your content ready for the next trend cycle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Work Portfolio</h2>
+            <p class="section-subtitle">Explore our diverse range of video editing services</p>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="short-form">Short Form</button>
+                <button class="filter-btn" data-filter="long-form">Long Form</button>
+                <button class="filter-btn" data-filter="gaming">Gaming</button>
+                <button class="filter-btn" data-filter="football">Football</button>
+                <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+                <button class="filter-btn" data-filter="documentary">Documentary</button>
+                <button class="filter-btn" data-filter="anime">Anime</button>
+                <button class="filter-btn" data-filter="ads">Ads</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Short Form Videos -->
+                <div class="portfolio-item" data-category="short-form">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">0:15</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Viral Shorts Edit</h4>
+                            <p>Trending short-form content with dynamic transitions</p>
+                            <div class="card-tags">
+                                <span class="tag">Shorts</span>
+                                <span class="tag">Viral</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Long Form Videos -->
+                <div class="portfolio-item" data-category="long-form">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">12:30</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>YouTube Documentary</h4>
+                            <p>In-depth storytelling with professional color grading</p>
+                            <div class="card-tags">
+                                <span class="tag">YouTube</span>
+                                <span class="tag">Educational</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gaming Videos -->
+                <div class="portfolio-item" data-category="gaming">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">8:45</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Gaming Montage</h4>
+                            <p>High-energy gaming highlights with sync editing</p>
+                            <div class="card-tags">
+                                <span class="tag">Gaming</span>
+                                <span class="tag">Montage</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Football Edits -->
+                <div class="portfolio-item" data-category="football">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">2:20</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Football Highlights</h4>
+                            <p>Sports editing with slow-motion and impact effects</p>
+                            <div class="card-tags">
+                                <span class="tag">Sports</span>
+                                <span class="tag">Highlights</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- eCommerce Ads -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">0:30</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Product Advertisement</h4>
+                            <p>Conversion-focused eCommerce video ads</p>
+                            <div class="card-tags">
+                                <span class="tag">eCommerce</span>
+                                <span class="tag">Ad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Documentary Style -->
+                <div class="portfolio-item" data-category="documentary">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">25:15</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Brand Documentary</h4>
+                            <p>Cinematic storytelling with professional narration</p>
+                            <div class="card-tags">
+                                <span class="tag">Documentary</span>
+                                <span class="tag">Brand</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Anime Videos -->
+                <div class="portfolio-item" data-category="anime">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">3:45</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Anime AMV</h4>
+                            <p>Music video with sync editing and effects</p>
+                            <div class="card-tags">
+                                <span class="tag">Anime</span>
+                                <span class="tag">AMV</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Ads -->
+                <div class="portfolio-item" data-category="ads">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">1:00</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Social Media Campaign</h4>
+                            <p>Multi-platform advertising content</p>
+                            <div class="card-tags">
+                                <span class="tag">Campaign</span>
+                                <span class="tag">Social</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Short Form -->
+                <div class="portfolio-item" data-category="short-form">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="video-thumbnail">
+                                <i class="fas fa-play"></i>
+                                <span class="video-duration">0:30</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Instagram Reel</h4>
+                            <p>Trendy reel with motion graphics</p>
+                            <div class="card-tags">
+                                <span class="tag">Instagram</span>
+                                <span class="tag">Trending</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <ul>
+                        <li>Short-form content</li>
+                        <li>Long-form videos</li>
+                        <li>Color grading</li>
+                        <li>Motion graphics</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Gaming Content</h3>
+                    <ul>
+                        <li>Gaming montages</li>
+                        <li>Highlights reel</li>
+                        <li>Stream overlays</li>
+                        <li>Thumbnails</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Social Media Marketing</h3>
+                    <ul>
+                        <li>Content strategy</li>
+                        <li>Viral campaigns</li>
+                        <li>Platform optimization</li>
+                        <li>Analytics tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Ready to Go Viral?</h2>
+            <p class="section-subtitle">Let's create content that converts</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@editkaro.in</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mumbai, India</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <select required>
+                            <option value="">Select Service</option>
+                            <option value="short-form">Short-form Videos</option>
+                            <option value="long-form">Long-form Videos</option>
+                            <option value="gaming">Gaming Content</option>
+                            <option value="ads">Advertisements</option>
+                        </select>
+                        <textarea placeholder="Tell us about your project" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Editkaro<span>.in</span></h3>
+                    <p>Creating viral content that sells.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Editkaro.in. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Lightbox Modal -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-video">
+                <div class="video-player">
+                    <i class="fas fa-play"></i>
+                    <p>Video Player</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
